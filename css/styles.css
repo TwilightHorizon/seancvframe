@@ -1,0 +1,110 @@
+
+*{
+  color:#454759
+  font-family: "Lora", sans-serif;
+}
+
+td{
+  padding: 10px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+h2 {
+
+  color: #242426;
+  font-family: "Playfair Display", sans-serif;
+}
+@media print {
+    .subsection-col{
+      float:none !important;
+      width:auto !important;
+      margin:none !important;
+      padding:none !important;
+
+    }
+}
+a:hover{
+  animation: link-hover 0.3s forwards;
+}
+@keyframes link-hover {
+  to{color:#a88a1e}
+}
+
+.stars {
+  color: #a88a1e;
+  font-size: 20px;
+}
+
+.subsection{
+  width: 75%;
+  margin: auto;
+}
+.subsection-col{
+  width: 40%;
+  margin: 5%;
+  float: left;
+  padding-bottom: 15px;
+}
+.header{
+
+  text-align: center;
+  overflow: auto;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid #a88a1e;
+
+}
+.headerImg {
+
+  float: left;
+}
+
+.headerTitle{
+  color: #242426
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
+}
+
+
+.nav-item{
+  margin-bottom: -5px;
+}
+
+
+.badges1{
+
+  text-align: center;
+  overflow: auto;
+  width: 5%;
+  margin: auto;
+  padding: 1.5px;
+
+}
+.badges2{
+
+  text-align: center;
+  overflow: auto;
+  width: 4.23%;
+  margin: auto;
+  padding: 1.5px;
+
+
+
+}
+
+
+/*
+Colors:
+Main: #454759
+Secondary: #242426
+Tertiary: #a88ale
+Background: white
+
+Fonts:
+Headers: Playfair Display
+Body Text: Lora
+*/
